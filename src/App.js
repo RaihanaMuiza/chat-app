@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Col  from 'react-bootstrap/Col'
+import ChatArea from './components/chatArea/chatArea';
+import ChatComponent from './components/chatArea/chatComponent';
+import JavaScriptHeader from './components/header/jsHeader';
+import ReactHeader from './components/header/reactHeader';
+import NarrowBar from './components/narrowbar/narrowBar';
+import SideBar from './components/sidebar/sidebar';
+import DescriptionCard from './components/Descriptioncard/DescriptionCard';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <NarrowBar className='narrowbar' />
+          <SideBar />
+          <ChatComponent />
+          
     </div>
   );
 }

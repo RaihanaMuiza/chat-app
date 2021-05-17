@@ -1,0 +1,113 @@
+.chatArea{
+    width: 60%;
+    max-height: 60%;
+    overflow-y: scroll;
+    padding: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: -15vh;
+    margin-left: 5vh;
+    text-align: left;
+    background-color: white;
+}
+
+.chatComponent{
+    height: 100vh;
+    margin-right: 5vh;
+}
+
+.subComponent{
+    display: flex;
+    flex-direction: row;
+}
+
+.headernchatarea{
+    flex: content;
+}
+
+/* .descriptionCard{
+    float: right;
+} */
+
+/* .subnoteComponent{
+    flex: 40%;
+} */
+
+.newMessageComponent{
+    display: block;
+    width: 60%;
+    min-height: 16vh;
+    padding: 5px;
+    margin-top: 2vh;
+    margin-left: 5vh;
+    align-items: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    
+}
+
+
+.writeMessage{
+    border: 1px solid silver;
+}
+
+.uploadbuttons{
+    width: 100%;
+}
+
+.addReplyButton{
+    width: 75%;
+    background-color: orangered;
+}
+
+.addReplyButton:hover{
+    background-color: orangered;
+    color: white;
+    opacity: 0.5;
+}
+
+.uploadmediaButton{
+    width: 100%;
+    color: white;
+    background-color: teal;
+}
+
+.uploadmediaButton:hover{
+    background-color: teal;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.replyImage{
+    float: left;
+}
+
+.individualMessage{
+    display: flex;
+}
+
+.chatAvatar{
+    float: right;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.chatName{
+    font-weight: bold;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.chatTime{
+    color: silver;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.chatMessage{
+    font-size: 12px;
+}
+
+
