@@ -67,7 +67,7 @@ function ChatArea(){
             <div className='individualMessage'>
             <Avatar icon={<UserOutlined />} className='chatAvatar' />
             <div>
-                <span className='chatName'>benthony</span>
+                <span className='chatName'>Mathews</span>
                 <span className='chatTime'>3 mins ago </span><br /> <span className='chatMessage'>It looks so cool!</span>         
             </div>
             </div>
